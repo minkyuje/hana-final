@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>WEB-CSS</title>
+        <meta charset="utf-8">
+    
+        <style>
+        h1{
+            font-size:100px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html" id='a1'>web</a></h1>
+        </header>
+        <nav>
+            <ol>
+                <li><a href="1.html">html</a></li>
+                <li><a href="2.html">css</a></li>
+                <li><a href="3.html">javascript</a></li>
+            </ol>
+        </nav>
+        <article>
+            <script>
+                var bodyTag = document.querySelector('body')
+            </script>
+           <input type = "button" value = "night" onclick="
+               
+           if(this.value === 'night')
+           {
+            bodyTag.style.backgroundColor = 'black'; bodyTag.style.color = 'white';
+            this.value='day';
+            document.querySelector('#a1').style.color='red'
+           }
+               
+            else
+            {
+                bodyTag.style.backgroundColor = 'white'; bodyTag.style.color = 'black';
+                this.value='night';
+                document.querySelector('#a1').style.color='green'
+            }
+            ">
+            <h2>css</h2>
+            sample text
+        </article>
+        
+    </body>
+</html>
