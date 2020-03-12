@@ -1,36 +1,105 @@
 ﻿<!doctype html>
 <html>
+<meta charset="utf-8">
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.js"></script>
 <head>
-<title>web</title>
+
+    <form action="https://google.com/search">
+        <input type="text" name="q" value="">
+        <input type="submit" value="search">
+    </form>     
+    <script>
+        function logIn(){
+            var password = '0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c';
+            var username = 'minkyu';
+            var inputPassword = sha256(prompt('password?'));
+            if(inputPassword == password){
+                var inputUsername = prompt('이름을 입력하세요');
+                if(inputUsername == username)
+                {
+                    alert('주인님 어서오세요');                  
+                }
+                else{
+                    alert('이름이 정확하지 않습니다');
+                }
+            }
+        else{
+            alert('비밀번호가 일치하지 않습니다');
+        }
+        }
+    </script>
+   
+    <input type="button" value="Login" onclick="
+        logIn();
+
+    ">
+<title>Fun.</title>
 <meta charset="utf-8">
 </head>
-
-<body style="background-color:darkseagreen;color:olive">
-<h1><a href="/index.html">Title</h1>
+<!-- <style>
+    *{
+        border-color:darksalmon;
+        border-width:2px;
+        border-style:solid;
+    }
+</style> -->
+<br><br><br>
+<body style="background-color:white;color:rgb(0, 0, 0)">
+    <h1>&#8213;&#8213;&#8213;&#8213; Fun.  &#8213;   Music Video & Photos &#8213;&#8213;&#8213;&#8213;</h1>
+<!-- <h1><a href="index.html">Title</h1> -->
                 <!-- ordered list -->
+                <br>
+                <style>
+                    
+                h1{
+                    border:5px solid rosybrown;
+                    padding-top :5px;
+                    padding-bottom:5px;
+                    margin:1px;
+                    text-align:center;
+                    
+                    color:orange;
+                    font-family: 'M PLUS Rounded 1c', sans-serif;
+                } 
+                </style>
+                              <p align="middle">
+                              <img src="0.gif" height=300>
+                              <img src="1.jpg" height=300>
+                              <img src="4.gif" height=300>
+                              <img src="2.jpg" height=300>
+                              <img src="3.jpg" height=300>
+                              <img src="5.gif" height=300>
+                              <img src="6.gif" height=300>
+                              <br>
+                              
+                            </p>
+                              <br><br><br><br>
+<p align="middle">
+    <iframe width="840" height="465" src="https://www.youtube.com/embed/qQkBeOisNM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+</p>
+<br>
+>>> M/V Links
 <ol>
-    <li><a href="1.html">html</a></li>
-    <li><a href="2.html">css</a></li>
-    <li><a href="3.html">js</a></li>
-    <br><a href="day2.html">day2</a>
+    <li><a href="1.html">We Are Young</a></li><br>
+    <li><a href="2.html">Carry on</a></li><br>
+    <li><a href="3.html">Why Am I The One</a></li><br>
+    <!-- <br><a href="day2.html">day2</a> -->
 </ol>
                 <!-- (un)ordered list -->
-<ul>
+
+<!-- <ul>
     <li>4</li>
     <li>5</li>
    <li>6</li>
-</ul>
-<a href="https://docs.google.com/spreadsheets/d/1Va_sw6dZWKqu-h3lH8tRod2kHPcOAX95A1kSGJ81BRU/edit#gid=1364515620"> page link </a> 
-<br><br>
-text
-<br><br>
-<u>underline <strong>strong</u></strong>
-<br>
-<br>
+</ul> -->
 
+<br><br><br><br><br><br>
+<a href="https://docs.google.com/spreadsheets/d/1Va_sw6dZWKqu-h3lH8tRod2kHPcOAX95A1kSGJ81BRU/edit#gid=1364515620"> >>>>> Other's page link <<<<<</a> 
+<br><br><br>
+<p align="middle">
+<img src="7.gif" height=240></p>
+<br><br><br>
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QC7g6U4e9no" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </body>
 </html>
